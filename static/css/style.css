@@ -1,0 +1,107 @@
+body{
+	width: 100%;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+	font-weight: 800;
+}
+nav{
+	color: #2b0034;
+	height: 8%;
+	font-size: 22px;
+}
+a{
+	text-decoration: none;
+	color: #2b0034;
+}
+a:hover{
+	color: #BDA0CB;
+}
+#nav_home{
+	display:inline-block;
+	padding-right: 40px; 
+	padding-left: 20px;
+	padding-top: 1%;
+}
+#nav_about{
+	display:inline-block;
+	padding-right: 40px;
+	padding-top: 1%;
+}
+#nav_help{
+	display:inline-block;
+	padding-right: 40px;
+	padding-top: 1%;
+}
+#nav_contact{
+	display:inline-block;
+	padding-right: 40px;
+	padding-top: 1%;
+}
+#container{
+	text-align: center;
+}
+#title{
+	margin-top: 7%;
+	margin-bottom: 0px;
+	font-size: 50px;
+	color: #401a4c;
+}
+#roll{
+	margin: 0px;
+	font-size: 35px;
+	color: #401a4c;
+}
+#button{
+	display: inline-block;
+	position: relative;
+	border-width: 10px;
+	border-color: #e4d4e8;
+	border-style: solid;
+	border-radius: 10px;
+	width: 25%;
+}
+.upload-btn-wrapper {
+	margin-top: 3%;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+	background-color: transparent;
+  border: 2px solid gray;
+  color: #401a4c;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+#up_img{
+	color: #401a4c;
+	font-size: 30px;
+	margin: 15px;
+}
+footer{
+	position:fixed;
+	width: 100%;
+	bottom:0;
+	left:0;
+	background-color: #78517e;
+}
+#foot_text{
+	font-weight: normal;
+	color: white;
+	margin: 0px;
+	padding: 5px;
+}

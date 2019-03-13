@@ -1,0 +1,98 @@
+body{
+	width: 100%;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+	font-weight: 800;
+}
+a{
+	text-decoration: none;
+	color: #2b0034;
+}
+a:hover{
+	color: #BDA0CB;
+}
+nav{
+	color: #2b0034;
+	height: 8%;
+	font-size: 22px;
+}
+#nav_home{
+	display:inline-block;
+	padding-right: 40px; 
+	padding-left: 20px;
+	padding-top: 1%;
+}
+#nav_about{
+	display:inline-block;
+	padding-right: 40px;
+	padding-top: 1%;
+}
+#nav_help{
+	display:inline-block;
+	padding-right: 40px;
+	padding-top: 1%;
+}
+#nav_contact{
+	display:inline-block;
+	padding-right: 40px;
+	padding-top: 1%;
+}
+#container{
+	text-align: center;
+}
+#title,#ctrl{
+	margin-top: 5%;
+	margin-bottom: 0px;
+	font-size: 50px;
+	color: #401a4c;
+}
+#ctrl{
+	margin-top: 0px;
+}
+#pic{
+	display: inline-block;
+	max-width: 70%;
+	margin: 0px;
+}
+#info{
+	display: inline-block;
+	max-width: 55%;
+	margin-top: 0px;
+	margin-right: 20px;
+	text-align: justify;
+	color: #191970;
+}
+#treatment{
+	background-color: #f5f5dc;
+}
+#abt{
+	display:inline-block;
+	max-width: 75%;
+	text-align: justify;
+	color: #191970;
+	background-color: #f5f5dc;
+}
+img{
+	border-radius: 10px;
+}
+#up_img{
+	color: #401a4c;
+	font-size: 30px;
+	margin: 15px;
+}
+footer{
+	position:fixed;
+	width: 100%;
+	bottom:0;
+	left:0;
+	background-color: #78517e;
+}
+#foot_text{
+	font-weight: normal;
+	color: white;
+	margin: 0px;
+	padding: 5px;
+}

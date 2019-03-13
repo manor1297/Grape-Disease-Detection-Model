@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Grape Plant Disease Detection Model</title>
+	<link rel="stylesheet" href="../static/css/disease.css">
+	<link rel="icon" href="../static/img/favicon.png">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body 	style="background-image: url('../static/img/disease.jpg');">
+	<header>
+		<nav>
+			<div id="nav_home"><a href="{{ url_for('index') }}">Home</a></div>
+			<div id="nav_about"><a href="about.html">About</a></div>
+			<div id="nav_help"><a href="help.html">Help</a></div>
+			<div id="nav_contact"><a href="contact.html">Contact Us</a></div>
+		</nav>
+	</header>
+	<div id="container">
+		<p id="title">Leaf Blight</p>
+		<p id="abt">It appears in the month of June and December. The disease attacks both leaves and fruits. Small
+yellowish spots first appear along the leaf margins, which gradually enlarge and turn into brownish
+patches with concentric rings. Severe infection leads to drying and defoliation of leaves. Symptoms in
+the form of dark brown-purplish patches appear on the infected berries, rachis and bunch stalk just
+below its attachment with the shoots.</p>
+	<section>
+		<article id="info">
+		<p id="ctrl">Control</p>
+		<p id="treatment">If the disease on the berries is not controlled in the field, it can lead to berry rotting during
+transit and storage. Bordeaux mixture (1.0%), Mancozeb (0.2%), Topsin-M (0.1%), Ziram (0.35%) or
+Captan (0.2%) is to be sprayed alternatively at weekly intervals from Jun-August and again from
+December until harvest to keep this disease under check. Two to three sprays of systemic fungicides
+should be given per season.</p>
+		</article>
+		<article id="pic" style = "border-radius: 10px;">
+			<img id="leaf" src="#" />
+		</article>
+	</section>
+	</div>
+	<footer>
+		<script src="../static/js/disease.js" type="text/javascript"></script>
+		<p id="foot_text">Copyrights &copy; Manor Deshmukh, Saumitra Apte, Yogita Sangale</p>
+	</footer>
+</body>
+</html>

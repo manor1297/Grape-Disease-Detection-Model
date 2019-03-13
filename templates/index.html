@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Grape Plant Disease Detection Model</title>
+	<link rel="stylesheet" href="../static/css/style.css">
+	<link rel="icon" href="../static/img/favicon.png">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body 	style="background-image: url('/static/img/home.jpg');">
+	<header>
+		<nav>
+			<div id="nav_home"><a href="#">Home</a></div>
+			<div id="nav_about"><a href="about.html">About</a></div>
+			<div id="nav_help"><a href="help.html">Help</a></div>
+			<div id="nav_contact"><a href="contact.html">Contact Us</a></div>
+		</nav>
+	</header>
+	<div id="container">
+		<p id="title">Grape Plant Disease Detection Model</p>
+		<p id="roll">ITA014</p>
+		<form id="upload-file" method="post" enctype="multipart/form-data">
+		<div class="upload-btn-wrapper">
+		  <button class="btn" style="color:#401a4c;">Upload a file</button>
+		  <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg"/>
+		</div>
+		</form>
+		<button type="button" class="btn btn-primary btn-lg " id="btn-predict" style="color:#401a4c;">Predict!</button>
+	</div>
+	<footer>
+		<script src="../static/js/main.js" type="text/javascript"></script>
+		<p id="foot_text">Copyrights &copy; Manor Deshmukh, Saumitra Apte, Yogita Sangale</p>
+	</footer>
+</body>
+</html>
